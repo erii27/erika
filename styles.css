@@ -1,0 +1,42 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --branco: #000000;
+    --cor-de-fundo: #ff0000;
+    --laranja: #ff0000; /* Exemplo de cor laranja */
+    --azul-degrade: linear-gradient(97.54deg, #ff0000 35.49%, #650000 165.37%);
+    --fonte-principal: "Poppins", sans-serif;
+    --azul: #ff0000; /* Exemplo de cor azul */
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Cor do texto dos links no cabeçalho */
+.lista-menu__link {
+    color: #000000; /* Substitua #333 pela cor desejada */
+  }
+  
+  /* Cor do texto dos botões */
+  .botões__ancora {
+    color: #000000; /* Substitua #fff pela cor desejada */
+  }
+  
+  /* Cor do texto nos títulos ou descrições dos cards */
+  .card__descrição {
+    color: #ffffff; /* Substitua #333 pela cor desejada */
+  }
+  
+  /* Cor do texto nos títulos ou descrições das imagens */
+  .descrição__imagem {
+    color: #ff0000; /* Substitua #333 pela cor desejada */
+  }
+  
